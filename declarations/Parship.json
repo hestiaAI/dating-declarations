@@ -10,6 +10,11 @@
       "fetch": "https://www.parship.fr/privacypolicy/",
       "select": ".legalTextBox",
       "remove": "a[href='https://www.parship.fr/static_cms/parship/static/Downloads/Parship_FR_Privacy_Policy_2021_05_04.pdf']"
+    },
+    "Trackers Policy": {
+      "fetch": "https://www.parship.fr/cookiesandtracking/",
+      "select": ".legalTextBox",
+      "remove": "a[href='https://www.parship.fr/static_cms/parship/static/Downloads/03_fr_Tracking_mechanism_App.pdf']"
     }
   }
 }
